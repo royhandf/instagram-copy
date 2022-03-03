@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin: 32px auto 0;
+    max-width: 935px;
+    padding-bottom: 25px;
+    width: 100%;
+}
+
+#ig-photo {
+    max-width: 454px;
+    width: 100%;
+    margin-left: -35px;
+    margin-right: -15px;
+}
+
+#ig-content {
+    color: rgb(38, 38, 38);
+    justify-content: center;
+    margin-top: 12px;
+    max-width: 350px;
+}
+
+#ig-login {
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 1px;
+    margin: 20px 0;
+    padding: 10px 0;
+}
+
+#ig-login h1 {
+    margin: 22px auto 12px;
+    color: transparent;
+    background-image: url(https://www.instagram.com/static/bundles/metro/sprite_core_32f0a4f27407.png/32f0a4f27407.png);
+    background-repeat: no-repeat;
+    background-position: 0 -130px;
+    height: 51px;
+    width: 175px;
+    display: block;
+}
+
+#ig-login .input {
+    margin-bottom: 10px;
+    max-width: 350px;
+    width: 100%;
+}
+
+#ig-signup {
+    background-color: #ffffff;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 1px;
+    padding: 10px 0;
+}
+
+#loginForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    margin-top: 24px;
+}
+
+.container .decoration {
+    display: flex;
+}
+
+.decoration .line {
+    background-color: rgb(219, 219, 219);
+    margin: 1px 25px;
+    flex-grow: 1;
+    height: 1px;
+    position: relative;
+    top: .50em;
+}
+
+.decoration p {
+    text-transform: uppercase;
+    color: rgb(142, 142, 142);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.user,
+.password {
+    margin: 0 40px 10px;
+}
+
+.user input,
+.password input {
+    font-size: 11px;
+}
+
+.btn {
+    margin: 15px 40px;
+}
+
+.btn button {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+.btn p {
+    color: rgb(255, 255, 255);
+}
+
+#ig-login input,
+#ig-login button {
+    height: 36px;
+    width: 268px;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 3px;
+}
+
+#ig-login button {
+    background-color: #b2dffc;
+}
+
+.fb {
+    width: 262px;
+    margin: 15px 40px 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.fb a {
+    color: #385185;
+    font-size: 14px;
+}
+
+.fb span {
+    background-image: url(https://www.instagram.com/static/bundles/metro/sprite_core_32f0a4f27407.png/32f0a4f27407.png);
+    background-position: -414px -259px;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 3px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#forgot {
+    color: rgb(0, 55, 107);
+    font-size: 12px;
+    line-height: 16px;
+    margin: 8px 40px;
+    display: flex;
+    justify-content: center;
+}
+
+#ig-signup {
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 1px;
+    margin: 0 0 10px;
+    padding: 20px 0;
+}
+
+#ig-signup a {
+    color: rgba(0, 149, 246);
+}
+
+p {
+    text-align: center;
+}
+
+#ig-app p,
+#ig-signup p {
+    font-size: 14px;
+    color: rgba(38, 38, 38);
+}
+
+#ig-app .app {
+    display: flex;
+    justify-content: center;
+    transform: translate(0, -25px);
+}
+
+#ig-app img {
+    height: 40px;
+}
+
+#first-container ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+#first-container li {
+    margin: 0 10px;
+}
+
+#first-container a {
+    color: rgb(142, 142, 142);
+    font-size: 12px;
+    margin: -2px 0 -3px;
+}
+
+#second-container p {
+    color: rgb(142, 142, 142);
+    font-size: 12px;
+    padding: 4px 0 0 10px;
+}
+
+#second-container {
+    margin-top: 10px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+#second-container select {
+    border: none;
+    font-size: 12px;
+    color: rgb(142, 142, 142);
+    margin: 5px 0;
+}
+
+.app a {
+    margin: 0 10px;
+}
